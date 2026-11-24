@@ -1,0 +1,23 @@
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Tue, 24 Nov 2026 22:58:27 +0000
+Label: FluxDM
+Origin: AISDevLab
+Suite: stable
+MD5Sum:
+ 5b0ee9b29eb2104f5386151e7a887c69              730 Packages
+ 068a714b7c4af9b055d266f8b5b3d339              526 Packages.gz
+ dc5b951109375178afef77c27e2510fd              139 Release
+SHA1:
+ bb5d3609828da9951f6e93fcc50c70144f8f9ecb              730 Packages
+ ae81c7102c734b00ee2d84c68e1e5667ce6e6089              526 Packages.gz
+ cf85760e3ff539bbb76d90392e651a1feeb71f60              139 Release
+SHA256:
+ 4f95b549123aa8912629cb60c624a84a51223ca4e94185a3503cac59c403a8c3              730 Packages
+ 992b0ec2436f276ce9244a5c794fd54ff459710d5ddf670edb7d1a1a833a79be              526 Packages.gz
+ 1462ee3dbda72de225d89f304372abf6bab7a02fa2bb4dfa419e7379437ffb69              139 Release
+SHA512:
+ 63cc5786b7dda5d2aedb75c396bb5264f697a334145791e95ab27f4431f21eb2cf23ffadffd385897faad7c4b8dbba3a1cb3115703ba29f92b939c7d025f42e2              730 Packages
+ 9f91298f55f7bdf0fa19b5e0a4af99bb705b2b20fc6ed0ddbb60b07047037d568d5c42ba9f9cf875ca7e5ef67f63496b643f2156ca6f12b49e5f5d94edc59628              526 Packages.gz
+ f092d21f19b4b33047a418b89aad82e7b65e91e84b21c6f10a07fc9399b98db63320f8bc9d768c85b9137a57cc3a933084a4f2a9b46ecfe7d1ce8b6176fb68e7              139 Release

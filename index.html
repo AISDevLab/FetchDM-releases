@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FluxDM APT Repository</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 3rem auto; padding: 0 1.25rem; background: #09090b; color: #f4f4f5; line-height: 1.6; }
+    pre { background: #18181b; border: 1px solid #27272a; padding: 1rem; border-radius: 10px; overflow-x: auto; color: #67e8f9; }
+    a { color: #818cf8; }
+  </style>
+</head>
+<body>
+  <h1>FluxDM — Linux APT Repository</h1>
+  <p>Privacy-first IDM &amp; universal video/audio downloader for Linux &amp; Windows.</p>
+  <h2>One-Line Install (Ubuntu / Debian / Linux Mint)</h2>
+  <pre>curl -fsSL https://aisdevlab.github.io/FluxDM-releases/install.sh | sudo bash</pre>
+  <h2>Manual APT Setup</h2>
+  <pre>curl -fsSL https://aisdevlab.github.io/FluxDM-releases/fluxdm.gpg | sudo gpg --dearmor -o /usr/share/keyrings/fluxdm.gpg
+echo "deb [signed-by=/usr/share/keyrings/fluxdm.gpg] https://aisdevlab.github.io/FluxDM-releases ./" | sudo tee /etc/apt/sources.list.d/fluxdm.list
+sudo apt update && sudo apt install flux-dm</pre>
+  <p>Or download directly from <a href="https://github.com/AISDevLab/FluxDM-releases/releases">GitHub Releases</a>.</p>
+</body>
+</html>
