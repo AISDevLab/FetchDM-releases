@@ -14,6 +14,7 @@
 [**Download Latest Release**](https://github.com/AISDevLab/FetchDM-releases/releases/latest) •
 [**Linux APT Site**](https://aisdevlab.github.io/FetchDM-releases) •
 [**Browser Extension**](#-browser-extension) •
+[**Uninstall**](#%EF%B8%8F-uninstall-completely) •
 [**Report a Bug**](https://github.com/AISDevLab/FetchDM-releases/issues)
 
 </div>
@@ -91,6 +92,40 @@ sudo apt update && sudo apt install fetch-dm
 - **Tracker Stripping** — Automatically strips `utm_*`, YouTube `si`, `fbclid`, `gclid`, and HTTP `Referer` headers.
 - **Tor & Proxy Ready** — One-click `socks5h://127.0.0.1:9050` routing for both direct and `yt-dlp` downloads.
 - **Hardened Local Bridge** — Rejects web origins (`403 Forbidden`) and accepts only browser extension origins.
+
+---
+
+## 🗑️ Uninstall Completely
+
+### 🐧 Linux (Ubuntu / Debian / Linux Mint)
+
+Remove the app, APT repository, GPG key, autostart entry, and encrypted local vault:
+
+```bash
+# 1. Remove the FetchDM package
+sudo apt remove --purge -y fetch-dm && sudo apt autoremove -y
+
+# 2. Remove the APT repository & signing key
+sudo rm -f /etc/apt/sources.list.d/fetchdm.list /usr/share/keyrings/fetchdm.gpg
+sudo apt update
+
+# 3. Remove encrypted vault, managed yt-dlp, and login autostart (optional)
+rm -rf ~/.local/share/FetchDM ~/.config/autostart/fetchdm.desktop
+```
+
+### 🪟 Windows 10 / 11
+
+1. Open **Settings → Apps → Installed apps** → find **FetchDM** → click **Uninstall**.
+2. *(Optional — remove encrypted vault, managed `yt-dlp`, and startup entry)* Open PowerShell and run:
+   ```powershell
+   Remove-Item -Recurse -Force "$env:LOCALAPPDATA\FetchDM" -ErrorAction SilentlyContinue
+   reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v FetchDM /f 2>$null
+   ```
+
+### 🧩 Browser Extension
+
+- **Chrome / Edge / Brave**: Open `chrome://extensions` (or `edge://extensions`) → click **Remove** on **FetchDM Download Companion**.
+- **Firefox**: Open `about:addons` → **Extensions** → click **Remove** on **FetchDM Download Companion**.
 
 ---
 
