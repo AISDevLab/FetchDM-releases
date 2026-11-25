@@ -1,17 +1,17 @@
-Package: flux-dm
+Package: fetch-dm
 Version: 0.1.0
 Architecture: amd64
 Maintainer: AISDevLab <AISDevLab@protonmail.com>
-Installed-Size: 24768
+Installed-Size: 24777
 Depends: libwebkit2gtk-4.1-0, libgtk-3-0
 Recommends: ffmpeg
-Filename: pool/main/FluxDM_0.1.0_amd64.deb
-Size: 7551384
-MD5sum: d74062c565dffafc3e4b2f3c016bff15
-SHA1: fc45bd414aa9edcb1dc2e9fee2e65f3bf91bceab
-SHA256: 2d9e625b0ad5ec3d0fb45b5a0a664b17bd8ce2928e5e7e4bc83e598d04553190
+Filename: pool/main/FetchDM_0.1.0_amd64.deb
+Size: 7544156
+MD5sum: e4bbdcb6585fa74c0c1783c1085c4987
+SHA1: 4e722ccde3b0b0605aec966e2069b0e9c7f0e27a
+SHA256: 266fad9ca0240298ebc901e793f2f7131883b523b5b207540eb6159a2c75ae51
 Section: net
 Priority: optional
 Description: Privacy-first IDM & universal video/audio downloader
- FluxDM is a cross-platform multi-segment download accelerator and universal video/audio downloader with encrypted ChaCha20-Poly1305 local history, zero plaintext logs, Tor/SOCKS5 proxy support, and a browser companion extension.
+ FetchDM is a cross-platform multi-segment download accelerator and universal video/audio downloader with encrypted ChaCha20-Poly1305 local history, zero plaintext logs, Tor/SOCKS5 proxy support, and a browser companion extension.
 
