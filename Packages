@@ -1,15 +1,15 @@
 Package: fetch-dm
-Version: 0.1.0
+Version: 0.2.0
 Architecture: amd64
 Maintainer: AISDevLab <AISDevLab@protonmail.com>
-Installed-Size: 24777
+Installed-Size: 25443
 Depends: libwebkit2gtk-4.1-0, libgtk-3-0
 Recommends: ffmpeg
-Filename: pool/main/FetchDM_0.1.0_amd64.deb
-Size: 7544156
-MD5sum: e4bbdcb6585fa74c0c1783c1085c4987
-SHA1: 4e722ccde3b0b0605aec966e2069b0e9c7f0e27a
-SHA256: 266fad9ca0240298ebc901e793f2f7131883b523b5b207540eb6159a2c75ae51
+Filename: pool/main/FetchDM_0.2.0_amd64.deb
+Size: 7699150
+MD5sum: 6a6ab46ba1170b8ed099c109765b3b91
+SHA1: aa7b92ce0439616105b780e2108159effcb28fa1
+SHA256: 6502391ee7676c209543c375a031c9e5793ed11ae2d801f71e8495eb4ea99f83
 Section: net
 Priority: optional
 Description: Privacy-first IDM & universal video/audio downloader

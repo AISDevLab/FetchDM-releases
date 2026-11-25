@@ -4,39 +4,39 @@ Hash: SHA512
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Wed, 25 Nov 2026 00:34:40 +0000
+Date: Wed, 25 Nov 2026 14:51:09 +0000
 Label: FetchDM
 Origin: AISDevLab
 Suite: stable
 MD5Sum:
- 0677853ce78be7988d860d88bb1df8dc              733 Packages
- 8dcf09e38a36b623ec4be825bb647e5d              528 Packages.gz
- f501e9f93a8b5ecc7d3960ef0adf3482              140 Release
+ b7100957d3006abb977a9cb3124d8812              733 Packages
+ b1c68725b05706edeab34bb37f54d1f3              530 Packages.gz
+ 44644957fe92b74a7459221873790742              140 Release
 SHA1:
- c97d1075443750375d9a65769d4aa04be68aba0b              733 Packages
- ddb03c5760da14433a952f18fd8e3e809227d40b              528 Packages.gz
- cdfd26b75614cca275421b49fcb4f4e3e63c75c2              140 Release
+ 42fd5c90ab00b92cd2d1e30dad079c1cf8890ba7              733 Packages
+ a4afef3160923a9198d1ca0f44abca4f64f72398              530 Packages.gz
+ 20aa235a659d69957d55fcc3f9d80b30e34cc74b              140 Release
 SHA256:
- e62dbb0d475575939206c00d1180a10b8e8323999db8e4ec43dd48c000e69ec6              733 Packages
- 685bc6b420c817ebd0d93a0dc64f3229fbe3c5a260377077b5221a9a1cdb818d              528 Packages.gz
- 249bf268386c04cb219dfe1d49c10ba4e32c32fc2ce1bdb4518959295667ec2f              140 Release
+ f1c0b5a01df9f5ce28216cb7ae07ea975d7ba74336d417e0117e91f8ef332ef7              733 Packages
+ df846b5e1563860192c428c486c0634a7c42f2db181ac0bd9b84083533d3a474              530 Packages.gz
+ 90f54a54984ad0ec74429702482319e1a17d52932a2a9012f95da3ecedcd9f7b              140 Release
 SHA512:
- 73bf464c0003e6844f05f91231206ceda79ca9c46390f267e863a3ebe9492d9363eebe4d6d7246f6b47b5117853bba2a9a29db86f99cf9696ac6ec9fd2c1a85f              733 Packages
- afaa185652999967d15b42db027df67f9941ff36a01ea655772e01685256fba905d9a6c7e5c38466a65a1894e6e41a667f04ad2b24b5f43b4630ef59fa0b4d23              528 Packages.gz
- 980de915b70fb941958c9dd0298e3bcec3e3d4625d4610bf79ddb048ce48e48a4199005c5051f56eaccbf117bdadbfee7c784d5bb4777060c6569d7131c5ff6d              140 Release
+ a98486c4ba0f69026e0376388171c5b234a7546fd9f95f352db19be8bf51ca962f770499698ce3e9ab2dd24a451292a189846d278b76eb6d2153e7df94920766              733 Packages
+ dbb122f498802bde9f4f92820537e50b2741908ffde9723db0f3ccc1ae02539b98035ebd562311638f926be5a934cb0a23d37e2573c592ca21b4ffc80ab88670              530 Packages.gz
+ 8c649350211ccf24f5a2ec0cb702dab46282fb274e623c1cc3abcb32742a52c0b38aab99a6dd99f7f29fe46419e5fb41d0c86398d3e87ab7bfe414c14233501e              140 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEC3ufG+gjYPuYvKRLOc9qMu8NdaYFAmsGLSEACgkQOc9qMu8N
-daa3ZBAAybsL7geQkVWlBT5iajfZEXz+HEXbK8FXabdGuUPotbm1F5MgD+XS8f45
-P5uOyj5l209SrS8fiuCMf9+6kRAy4iRS8FsJ6fvJbtOLAQRV6xgIXXYuzOZLylKx
-AZUNZKWrsmsh46JH++4DmOppuC7t2B3gkJPL8LdmUu6H4V2gaqbQjVF6jelR/otg
-s+RjPutHKPyiYsa+G7eOJYd/FgcORcZvDMwuTPjzPyokDl/dKk3nt23oT/N1uyim
-ZSVM4viyBM+o6WPcybYwEeHki8vcdBAlyARzi+4QvKEbkPDmGWsDicd4Fyn0gpyb
-UWUzc1ldfQrghb/ObNASRYW3SZ68GIykFZcz00peGHbkjdv0eA+u+dk9wdGsaPdT
-8v0pmjiJfDKB/o9t49O+8Ci6HPwKCVgQdx3WsWwmxxx+CXABlhnL2gH+/pYTSCQd
-8r4LWaZuBclMwfRZ3Ea8tKZ5/oyVTnWeKdJS3o8czAAWG7ApT27+ntGTiwdiroi/
-+SluZRFQsKC2rKYlnX4O7CE5RN30gxrxBKKxWStP/6NS4cylxzQ/Lq1Op//SCeY4
-s9VgsFCH3DbfOnAh/szoSIIcUBqZ9yB+rxNZMvuy1Inrdhk08rUwBchQ/B/c98h8
-dzR6HLEmVyJYXFLnxp1CaPty/t7fy7ARogRTZ8g/cLJQNLNlEvo=
-=X8JI
+iQIzBAEBCgAdFiEEC3ufG+gjYPuYvKRLOc9qMu8NdaYFAmsG9d0ACgkQOc9qMu8N
+dabttA/+NmEV1MJNi5817aTC3IiJdULhW3XoEDFyTe730rwx8PVJ6P/PXAbTbsge
+7XYvef37heuzYIqUoJBX7emv4qoOkgsxWeVnAjn0xpQSYCuhKwOkLSJ6/EGYKDKm
+SJqArvGH2QXlv9KpR+0lMxY1fOOqxioM63dqj0r9Ep4SJ6nKzrAQo6UUquHHRsDg
+cMNWfUicr/d3Kt8AYmPk57Jj4R4ibYUs6Bf/6nOdW230eOGdOVYWHkHA6lIPZIsE
+Mkpbe0ghFK41Yi0Rdgj5sq9ZhhkqSI89CoF3PfQzHVY/bzE8OWm+HFsKSnx2GZkU
+VMqtazc5BCxtpQ0GBnltPWVaQJkCbf33gOYzXgBvlxwioMR7O4juNhBzZOpEOwb3
+u/M6s/+goQIWhMBwfptUMRMcBUCbeFCF5dvlkYIHaTw+DYcvksa7DkeuNcALt4+n
+XttGjpiJGVy+GKDCl8Ok6sIUYe3JGEls94BFvcD7Rgl6Z0NOhB55jPhOnde6Ulu2
+60z4dDzx0oSrxEG/ICB6lsGCQIDzjbgycxEcGxj0O9Rii+6D4QBBrJjjOrPPWoUO
+IOqJujuD/ZHaobAyuVTUDCWvgcvTGvM0H3ZYcQG4pvTt0MlJoulUKubMSirQDyYA
+Rv7rFbogROxZB96tBsdKzhbJd/Db2Auelq9srU4uJyGUkhrrRQs=
+=Dpor
 -----END PGP SIGNATURE-----
